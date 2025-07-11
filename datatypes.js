@@ -64,11 +64,10 @@ function nothing() {
   console.log(typeof colours + "-red,blue, yellow");
 }
 
-
 //////float example////
-let area = 875.77890;
-calculateArea()
+let area = 875.7789;
+calculateArea();
 
-function calculateArea(){
-console.log(typeof area + "-875.77890");
+function calculateArea() {
+  console.log(typeof area + "-875.77890");
 }
