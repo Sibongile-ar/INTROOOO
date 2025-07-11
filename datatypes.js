@@ -20,7 +20,7 @@ function fruits() {
   );
 }
 
-/////FLOAT/DOUBLE EXAMPLE///
+//////DOUBLE EXAMPLE///
 let price = 10.99;
 money();
 function money() {
@@ -62,4 +62,13 @@ nothing();
 
 function nothing() {
   console.log(typeof colours + "-red,blue, yellow");
+}
+
+
+//////float example////
+let area = 875.77890;
+calculateArea()
+
+function calculateArea(){
+console.log(typeof area + "-875.77890");
 }
