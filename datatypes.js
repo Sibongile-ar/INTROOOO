@@ -3,14 +3,12 @@ let petName = "Teddy"; // Global variable
 
 myFunction();
 function myFunction() {
-  fruit = "apple"; // Considered global
+  frui = "apple"; // Considered global
   console.log(typeof petName + "" + "My pet name is " + petName);
 }
 console.log(
-  typeof petName + "-" + "My pet name is " + petName + "Fruit name is " + fruit
+  typeof petName + "-" + "My pet name is " + petName + "Fruit name is " + frui
 );
-
-///////
 
 //////INTEGER EXAMPLE///////
 // Integer example
